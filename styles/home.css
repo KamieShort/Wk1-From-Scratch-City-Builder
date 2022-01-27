@@ -1,1 +1,8 @@
-/* add home page styles here */
+#title {
+    font-family: 'Pacifico', cursive;
+}
+
+.buildtitle {
+    font-family: 'Comforter', cursive;
+    font-size: 50px;
+}
