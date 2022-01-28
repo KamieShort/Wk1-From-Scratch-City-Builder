@@ -43,7 +43,7 @@ pestSelector.addEventListener('change', (e) => {
 });
 // get user input
 function displayStats() {
-    const countstring = createCountString(buildingCounter, mayorCounter, pestCounter);
+    const countString = createCountString(buildingCounter, mayorCounter, pestCounter);
     results.textContent = countString;
 }
 function displayNames() {
@@ -56,7 +56,7 @@ function displayNames() {
 }
 // use user input to update state
 cityNameBtn.addEventListener('click', () => {
-    names.push(nameInput.value);
+    cityNames.push(nameInput.value);
     displayNames();
 });
 // update DOM to reflect the new state
