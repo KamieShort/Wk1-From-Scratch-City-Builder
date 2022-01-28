@@ -20,6 +20,8 @@ let buildingCounter = 0;
 let mayorCounter = 0;
 let pestCounter = 0;
 
+displayStats();
+
 // set event listeners
 buildingSelector.addEventListener('change', (e) => {
     const value = e.target.value;
@@ -39,7 +41,7 @@ pestSelector.addEventListener('change', (e) => {
     const value = e.target.value;
     pestImage.src = `./assets/pest-${value}.jpg`;
     pestCounter++;
-    displayStats;
+    displayStats();
 });
 // get user input
 function displayStats() {
