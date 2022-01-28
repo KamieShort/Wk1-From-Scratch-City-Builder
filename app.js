@@ -1,3 +1,4 @@
+import { createCountString } from '../utils';
 // import functions and grab DOM elements
 const buildingSelector = document.getElementById('building-selector');
 const buildingImage = document.getElementById('building-img');
@@ -40,11 +41,22 @@ pestSelector.addEventListener('change', (e) => {
     pestCounter++;
     displayStats;
 });
-
+// get user input
 function displayStats() {
     const countstring = createCountString(buildingCounter, mayorCounter, pestCounter);
     results.textContent = countString;
 }
-// get user input
+function displayNames() {
+    nameList.textContent = '';
+    for (let cityName of cityNames) {
+        const li = document.createElement('li');
+        li.textContent = cityName;
+        nameList.append(li);
+    }
+}
 // use user input to update state
+cityNameBtn.addEventListener('click', () => {
+    names.push(nameInput.value);
+    displayNames();
+});
 // update DOM to reflect the new state
