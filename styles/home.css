@@ -6,6 +6,10 @@
     font-family: 'Comforter', cursive;
     font-size: 80px;
 }
+#build-subtitle {
+    font-family: 'Comforter', cursive;
+    font-size: 50px;
+}
 
 #building {
     font-family: 'Pacifico', cursive;
@@ -22,4 +26,8 @@
     margin: 10px;
     border: 10px;
     padding: 10px;
+}
+#city-names {
+    font-family: 'Comforter', cursive;
+    font-size: 40px;
 }
