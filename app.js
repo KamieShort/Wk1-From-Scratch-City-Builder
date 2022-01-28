@@ -7,8 +7,11 @@ const mayorImage = document.getElementById('mayor-img');
 
 const pestSelector = document.getElementById('pest-selector');
 const pestImage = document.getElementById('pest-img');
-// let state
 
+const cityNameBtn = document.getElementById('name-btn');
+const nameInput = document.getElementById('name-input');
+// let state
+let;
 // set event listeners
 // get user input
 // use user input to update state
