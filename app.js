@@ -1,4 +1,4 @@
-import { createCountString } from './utils';
+import { createCountString } from './utils.js';
 // import functions and grab DOM elements
 const buildingSelector = document.getElementById('building-selector');
 const buildingImage = document.getElementById('building-img');

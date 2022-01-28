@@ -1,9 +1,9 @@
 /* eslint-disable indent */
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-import { createCountString } from '../utils';
 
-const test = QUnit.test;
+
+
 
 // test('time to test a function', (expect) => {
 //     //Arrange
@@ -19,11 +19,4 @@ const test = QUnit.test;
 //     expect.equal(actual, expected);
 // });
 
-test('createCountString returns a formatted string'),
-    (expect) => {
-        const expected = `You have changed the Building 2 times, the Mayor 3 times, and the Pest 4 times`;
 
-        const actual = createCountString(2, 3, 4);
-
-        expect.equal(actual, expected);
-    };
