@@ -8,10 +8,12 @@ const mayorImage = document.getElementById('mayor-img');
 const pestSelector = document.getElementById('pest-selector');
 const pestImage = document.getElementById('pest-img');
 
-const cityNameBtn = document.getElementById('name-btn');
 const nameInput = document.getElementById('name-input');
+const cityNameBtn = document.getElementById('name-btn');
+const nameList = document.getElementById('name-list');
+add reset? 
 // let state
-let;
+let ;
 // set event listeners
 // get user input
 // use user input to update state
