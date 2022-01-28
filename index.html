@@ -4,16 +4,26 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
+            rel="stylesheet"
+        />
         <link
             href="https://fonts.googleapis.com/css2?family=Comforter&family=Neonderthaw&family=Pacifico&family=Space+Mono&display=swap"
-            rel="stylesheet"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-        <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Neonderthaw&family=Pacifico&family=Space+Mono&display=swap" rel="stylesheet"> -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Neonderthaw&family=Pacifico&family=Space+Mono&display=swap" rel="stylesheet">
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comforter&family=Neonderthaw&family=Pacifico&family=Space+Mono&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comforter&family=Neonderthaw&family=Pacifico&family=Space+Mono&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="./styles/reset.css" />
         <link rel="stylesheet" href="./styles/style.css" />
         <link rel="stylesheet" href="./styles/home.css" />
@@ -26,13 +36,43 @@
                 <h1>Check it Out!</h1>
             </div>
         </header>
-
         <main>
-            <div class="buildtitle">
-                <h2>Build your City!</h2>
+            <div id="build-title">
+                <p>Build Your City!</p>
             </div>
-            <section>
-                <!-- <class -->
+            <div id="build-subtitle">
+                <p>Select Your Options Below:</p>
+            </div>
+            <section class="cityOptions">
+                <div class="select" id="building">
+                    <label>Building</label>
+                    <select id="building-selector">
+                        <option value="1">Space Needle</option>
+                        <option value="2">World Trade Center</option>
+                        <option value="3">Empire State Building</option>
+                    </select>
+                    <img id="building-img" src="./assets/building-1.jpg" />
+                </div>
+
+                <div class="select" id="mayor">
+                    <label>Mayor</label>
+                    <select id="mayor-selector">
+                        <option value="1">Adele</option>
+                        <option value="2">Betty</option>
+                        <option value="3">Oprah</option>
+                    </select>
+                    <img id="mayor-img" src="./assets/mayor-1.jpeg" />
+                </div>
+
+                <div class="select" id="pest">
+                    <label>Pest</label>
+                    <select id="pest-selector">
+                        <option value="1">Cockroach</option>
+                        <option value="2">Mouse</option>
+                        <option value="3">Racoon</option>
+                    </select>
+                    <img id="pest-img" src="./assets/pest-1.jpg" />
+                </div>
             </section>
         </main>
         <footer>
